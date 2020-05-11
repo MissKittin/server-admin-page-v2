@@ -1,0 +1,37 @@
+<div id="menu">
+	<!--
+		&#9484; - flipped 'L'
+		&#9500; - '|-'
+		&#9472; - long '-'
+		&#9492; - 'L'
+		&#127968; - Home
+	-->
+	<a href="." style="font-size: 20pt;">&#127968;</a><br>
+	&#9484;Network<br>
+		&#9500;&#9472;<a href="net-ifaces.php">Interfaces</a><br>
+		&#9500;&#9472;<a href="net-bwusage.php">Bandwidth usage</a><br>
+		&#9500;&#9472;<a href="net-routing.php">Routing & firewall</a><br>
+		&#9500;&#9472;<a href="net-forwarding.php">Port forwarding</a><br>
+		&#9500;&#9472;<a href="net-devices.php">Devices</a><br>
+		&#9500;&#9472;<a href="net-wifi.php">WiFi</a><br>
+		&#9500;&#9472;<a href="net-ap.php">WiFi AP</a><br>
+		&#9500;&#9472;<a href="net-vpn.php">VPN</a><br>
+		&#9500;&#9472;<a href="net-dialin.php">Dial-In connections</a><br>
+		&#9500;&#9472;<a href="net-limits.php">Data limits</a><br>
+	&#9500;System<br>
+		&#9500;&#9472;<a href="sys-logs.php">Logs</a><br>
+		&#9500;&#9472;<a href="sys-sensors.php">Sensors</a><br>
+		&#9500;&#9472;<a href="sys-updates.php" onclick="alert('Long loading, please be patient.');">Updates</a><br>
+		&#9500;&#9472;<a href="sys-daemons.php">Daemons</a><br>
+		&#9500;&#9472;<a href="sys-users.php">Logged users</a><br>
+		&#9500;&#9472;<a href="sys-notifications.php">Notifications</a><br>
+	&#9500;<a href="storage.php">Storage & RAM</a><br>
+	&#9500;Power management<br>
+		&#9500;&#9472;Action<br>
+			&#9500;&#9472;&#9472;<a href="power.php?do=halt" onclick="return confirm('Are you sure?');">Halt</a><br>
+			&#9500;&#9472;&#9472;<a href="power.php?do=reboot" onclick="return confirm('Are you sure?');">Reboot</a><br>
+			&#9500;&#9472;&#9472;<a href="power.php?do=suspend" onclick="return confirm('Are you sure?');">Suspend</a><br>
+		&#9500;&#9472;<a href="power-autosuspend.php">Auto suspend</a><br>
+		&#9492;&#9472;<a href="power-autowakeup.php">Auto wake-up</a><br>
+	<form action='.' method="post"><button type="submit" name="logout" value="logout">Logout</button></form>
+</div>
